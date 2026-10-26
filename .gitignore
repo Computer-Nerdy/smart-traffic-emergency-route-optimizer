@@ -1,0 +1,47 @@
+# Word & Office Temporary Lock Files
+~$*.docx
+~$*.doc
+*.tmp
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+venv/
+.venv/
+
+# Scratch blender/image renders
+cyberpunk_*.png
+nyc_*.png
+full_city_*.png
+test_*.png
+test_*.py
+build_nyc_*.py
+generate_nyc_*.py
+refine_nyc_*.py
+update_scene_*.py
+generate_final_nyc_*.py
+
+# Temporary patching & migration scripts
+patch_*.py
+apply_*.py
+fix_*.py
+simplify_*.py
+de_cyberpunk_*.py
+enhance_*.py
+append_styles.py
+update_reports_with_flowchart.py
+generate_flowchart_image.py
+upgrade_features.py
+make_srm_report.py
+generate_html_report.py
+update_to_real_map.py
+generate_standalone.py
+fetch_osrm_network.js
+check_routes.js
+
+# Build artifacts & logs
+*.log
+*.obj
+*.o
